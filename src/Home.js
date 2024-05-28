@@ -15,7 +15,7 @@ function Home() {
             </div>
         </div>
         </div> 
-        <div className="hero bg-secondary mt-20 py-10 mx-auto grid max-w-auto grid-cols-1 gap-x-8 gap-y-16 text-center">
+        {/* <div className="hero bg-secondary mt-20 py-10 mx-auto grid max-w-auto grid-cols-1 gap-x-8 gap-y-16 text-center">
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
             <h1 className="mb-5 font-bold text-neutral text-5xl">quick sample of what i do!</h1>  
@@ -24,6 +24,7 @@ function Home() {
         </div>  
         <Carousel/>
         <a href="/portfolio" className="btn justify-center btn-lg btn-secondary">see more</a>
+        */}
         </>
     )
 }
