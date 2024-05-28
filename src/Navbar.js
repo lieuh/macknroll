@@ -1,17 +1,14 @@
 import './App.css';
 import './index';
-import React, {useState} from "react";
+import React from "react";
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
 function Navbar() {
-  const [open, setOpen] = useState(false)
-
   return (
     <div className="navbar bg-mytheme-accent">
     <div className="navbar-start">

@@ -54,7 +54,7 @@ function About() {
                 it is my goal to provide that to people in my life both in person and online ^__^
                 i am also passionate about putting guys in skirts
                 </p>
-              <ul role="list" className="mt-8 space-y-8 text-white">
+              <ul className="mt-8 space-y-8 text-white">
                 <li className="flex gap-x-3">
                   <span>
                     <strong className="font-semibold text-neutral">social media..?</strong> <br></br>instagram<br></br>tiktok<br></br>reddit<br></br>email

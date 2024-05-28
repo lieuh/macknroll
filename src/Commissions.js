@@ -77,7 +77,7 @@ function Commissions() {
                 <p>if for any reason i cannot complete the commission, i will refund the full cost</p>
                 <p>after i email the png/jpg file to you, the sale is considered complete and refunds will not be accepted</p>
                 <div className="items-center flex justify-center mt-16">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSemO27N9sp5j1fNFet_HEcv-_KFu6D_bA-yzsE4h-y7nD20RQ/viewform?embedded=true" width="640" height="1645" frameborder="0" marginheight="0" marginwidth="0" >Loading…</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSemO27N9sp5j1fNFet_HEcv-_KFu6D_bA-yzsE4h-y7nD20RQ/viewform?embedded=true" width="640" height="1645" frameborder="0" marginheight="0" marginwidth="0" title='commissionForm'>Loading…</iframe>
                 </div>
             </div>
         </div>
