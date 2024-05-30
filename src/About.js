@@ -2,32 +2,12 @@ import './App.css';
 
 function About() {
     return (
-        <div>
-<div className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
-      <div className="absolute inset-0 -z-10 overflow-hidden">
-          <defs>
-            <pattern
-              id="e813992c-7d03-4cc4-a2bd-151760b470a0"
-              width={200}
-              height={200}
-              x="50%"
-              y={-1}
-              patternUnits="userSpaceOnUse"
-            >
-              <path d="M100 200V.5M.5 .5H200" fill="none" />
-            </pattern>
-          </defs>
-            <path
-              d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
-              strokeWidth={0}
-            />
-          <rect width="100%" height="100%" strokeWidth={0} fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
-      </div>
+        <div className='mx-10'>
       <div className="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start">
       <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div className="lg:pr-4">
           <div className="lg:max-w-lg">
-            <h1 className="mb-4 text-5xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl">
+            <h1 className="mb-4 text-5xl mt-10 font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl">
               about me 
             </h1>
             <p className="mb-6 text-lg font-normal text-neutral lg:text-xl">
@@ -57,7 +37,10 @@ function About() {
               <ul className="mt-8 space-y-8 text-white">
                 <li className="flex gap-x-3">
                   <span>
-                    <strong className="font-semibold text-neutral">social media..?</strong> <br></br>instagram<br></br>tiktok<br></br>reddit<br></br>email
+                    <strong className="font-semibold text-neutral">social media..?</strong> <br></br>
+                    <a href='https://instagram.com/macknrolll' target='_blank' rel='noopener noreferrer'>instagram</a><br />
+                    <a href='https://tiktok.com/@macknrolll' target='_blank' rel='noopener noreferrer'>tiktok</a><br />
+                    <a href='mailto:macknrollart@gmail.com'>email</a>
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -71,8 +54,8 @@ function About() {
                   </span>
                 </li>
               </ul>
-              <h2 className="mt-20 text-2xl font-bold tracking-tight text-neutral">what is currently up?</h2>
-              <p className="mt-8">
+              <h2 className="mt-10 text-2xl font-bold tracking-tight text-neutral">what is currently up?</h2>
+              <p className="mt-8 mb-10">
                 in the process of applying for conventions (wasabicon - pdx), producing new merch designs (prints & stickers), and doing small commissions on the side...
               </p>
             </div>
@@ -80,7 +63,6 @@ function About() {
         </div>
       </div>
     </div>
-        </div>
     )
 }
 
